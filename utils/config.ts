@@ -10,10 +10,12 @@ export const hashRoutes = [
 export const sections = hashRoutes.map(route => route[0].toLowerCase());
 
 export const introAnimatedText = [
-  "Developer",
-  "Programmer",
   "Tech Enthusiast",
-  "Gamer"
+  "Full-Stack Developer",
+  "Automation Wizard",
+  "Code Artist",
+  "ML Explorer",
+  "Strategic Gamer"
 ];
 export const myName = "Aman Arya";
 export const shortDescription = "JUNIOR SOFTWARE ENGINEER";

@@ -1,33 +1,13 @@
 "use client"
 
-import { useEffect } from 'react';
-import { stagger, useAnimate } from 'framer-motion';
 import DecoderText from '@/components/ui/DecoderText/DecoderText';
 import ScramblingText from '@/components/ui/ScramblingText/ScramblingText';
 import { introAnimatedText, myName, shortDescription } from "@/utils/config";
+import { DECODER_TEXT_START_DELAY, SCRAMBLING_TEXT_DELAY } from '@/utils/timing';
 import { gotham_medium, raleway } from '@/utils/fonts';
 import { cn } from '@/utils/cn';
+import { useIntroAnimation } from './useIntroAnimation';
 import "./Intro.css";
-import { DECODER_TEXT_START_DELAY, INTRO_LOAD_DELAY, INTRO_LOAD_DURATION, SCRAMBLING_TEXT_DELAY } from '@/utils/timing';
-
-function useIntroAnimation() {
-  const [scope, animate] = useAnimate();
-  const staggerIntroItems = stagger(0.1, { startDelay: INTRO_LOAD_DELAY });
-
-  useEffect(() => {
-    const animation = animate(
-      "[data-introanimate]",
-      { opacity: 1, translate: '0px 0px', scale: 1, filter: "blur(0px)" },
-      { duration: INTRO_LOAD_DURATION, delay: staggerIntroItems }
-    );
-
-    return () => {
-      animation.stop(); // Cleanup animation to avoid memory leaks
-    };
-  }, [animate, staggerIntroItems]);
-
-  return scope;
-}
 
 export default function Intro() {
   const introRef = useIntroAnimation();
@@ -55,4 +35,4 @@ export default function Intro() {
       </div>
     </section>
   );
-}
+};
