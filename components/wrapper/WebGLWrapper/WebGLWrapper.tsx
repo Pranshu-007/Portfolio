@@ -17,7 +17,8 @@ const WebGLWrapper: React.FC<ReadOnlyChildren> = ({ children }) => {
     toast.custom((t) => (
       <ErrorToast
         id={t.id}
-        primaryMessage={error?.message}
+        // primaryMessage={error?.message}
+        primaryMessage='Graphics failed to load'
         secondaryMessage="Please check your settings or try another browser"
       />
     ), {
