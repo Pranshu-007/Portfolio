@@ -11,6 +11,7 @@ import withThemeRerender from "@/components/hoc/withThemeRerender";
 import { SCROLL_DOWN_LOAD_DELAY } from "@/utils/timing";
 import Intro from "./sections/Intro/Intro";
 import About from "./sections/About/About";
+import Projects from "./sections/Projects/Projects";
 
 // Only render the DisplacementSphere component on the client side
 const DisplacementSphere = dynamic(() => import("@/components/ui/DisplacementSphere/DisplacementSphere"), {
@@ -31,6 +32,7 @@ const Home = () => (
         <Intro />
         <ScrollDown mountDelay={SCROLL_DOWN_LOAD_DELAY} href="#about" />
         <About />
+        <Projects />
         <Footer />
       </MainComponent>
     </GridBackgroudLayout>

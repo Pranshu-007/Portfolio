@@ -5,8 +5,8 @@ import StyledLink from '@/components/ui/StyledLink/StyledLink';
 const Footer = () => (
   <footer className={styles.footer} aria-label="Footer Section">
     <div>Copyright © {new Date().getFullYear()} All rights reserved</div>
-    <div>Made with ❤️ by <StyledLink aria-label='Aman Arya LinkedIn Profile' external href="https://www.linkedin.com/in/aman-arya-79a52121b">
-      Aman Arya
+    <div>Made with ❤️ by <StyledLink aria-label='Pranshu Shukla LinkedIn Profile' external href="https://www.linkedin.com/in/aman-arya-79a52121b">
+      Pranshu Shukla
     </StyledLink></div>
   </footer>
 );

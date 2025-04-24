@@ -25,25 +25,20 @@ const About = () => {
 
         <div className={styles.about_text}>
           <p>
-            I’m Aman Arya, currently I live in Bengaluru India,
-            working as a Junior Engineer at <StyledLink external href='https://www.goldmansachs.com/'>Goldman Sachs</StyledLink>.
+            I’m Pranshu Shukla, currently I live in Gurgaon India,
+            working as a MERN Stack Developer at <StyledLink external href='https://acciojob.com/'>AccioJob</StyledLink>.
           </p>
 
           <p>
-            I’ve been flexible with technologies, enjoying the journey from creating games like <StyledLink external href='https://github.com/Am4nn/Super-Mario-SFML'>Super Mario</StyledLink> in C++ with SFML,
-            to exploring Java with its <StyledLink external href='https://github.com/Am4nn/Auction-App-Using-RMI'>RMI</StyledLink>, <StyledLink external href='https://github.com/Am4nn/MultiClient-Java-Server'>Socket</StyledLink> and <StyledLink external href='https://github.com/Am4nn/Draw-Graphs'>Swing</StyledLink> libraries.
-            Transitioning to web development, I’ve delved into various libraries and frameworks such as Next.js, TypeScript, Framer Motion, Socket.io and Redux.
-            I also explored <StyledLink external href='https://github.com/Am4nn/Online-Judge-Project'>Docker, AWS, DNS management</StyledLink>, and other technologies during this transition.
+          As a fresher, I’ve been exploring the world of full stack development, building live projects like an e-commerce website, a hotel booking platform, and a gym app using technologies such as React, Node.js, Express, and MongoDB. I’ve also worked with React Native and Flutter, which helped me dive into mobile development and create engaging user experiences.
           </p>
 
           <p>
-            During my time at Goldman Sachs, I focused on Tableau, data modeling, and am currently involved in
-            Playwright test automation, Cucumber, and contributing to API services with Spring Boot and RxJava.
+          I enjoy experimenting with new tools and frameworks like <StyledLink external href='#'>Redux</StyledLink>, <StyledLink external href='#'>JWT</StyledLink>, <StyledLink external href='#'>Framer Motion</StyledLink>, and <StyledLink external href='#'>MongoDB Atlas</StyledLink>, constantly expanding my technical toolkit. Currently, I’m focused on improving my backend skills, working on API development and authentication flows.
           </p>
 
           <p>
-            In my free time, I enjoy watching web series, playing video games, and experimenting with new technologies.
-            I’m always eager to learn about new projects, so <StyledLink href='#contact'>please feel free to reach out to me</StyledLink>.
+          Outside of coding, I enjoy playing cricket, chess, video games, and writing poetry. I’m always excited to learn from new challenges and collaborate on innovative projects, so <StyledLink href='#contact'>please feel free to reach out to me</StyledLink>.
           </p>
 
           <p>Here are a few technologies I’ve worked on:</p>
@@ -64,11 +59,11 @@ const About = () => {
           <div className={styles.image_wrapper}>
             <Image
               className={styles.img}
-              src="/images/my-pic.png"
+              src="/images/portfolio-pic.jpg"
               width={728}
               height={1125}
               quality={95}
-              alt="Aman Arya's Picture"
+              alt="Pranshu Shukla's Picture"
               loading="lazy" // Enable lazy loading for better performance
             />
           </div>

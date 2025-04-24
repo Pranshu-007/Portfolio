@@ -4,7 +4,7 @@ import React from "react";
 import {
   Navbar as NextUINavbar, NavbarBrand, Button, Link,
   NavbarContent, NavbarItem
-} from "@nextui-org/react";
+} from "@heroui/react";
 import Logo from "@/components/ui/Logo/Logo";
 import ThemeSwitch from "@/components/ui/ThemeSwitch/ThemeSwitch";
 import { AnimatePresence, motion, Variants } from "framer-motion";
@@ -37,8 +37,8 @@ const Navbar: React.FC = () => (
           <Button
             as={Link}
             color="primary"
-            href="mailto:125aryaaman@gmail.com"
-            aria-label="Send an email to Aman Arya"
+            href="mailto:pranshushukla25@gmail.com"
+            aria-label="Send an email to Pranshu Shukla"
             variant="solid"
             radius="sm"
           >
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => (
             color="default"
             target="_blank"
             href="/resume.pdf"
-            aria-label="Download Aman Arya's Resume"
+            aria-label="Download Pranshu Shukla's Resume"
             variant="flat"
             radius="sm"
           >

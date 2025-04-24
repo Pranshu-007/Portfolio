@@ -22,26 +22,26 @@ export const metadata: Metadata = {
 
   title: {
     template: "%s | Portfolio",
-    default: "Aman Arya",
+    default: "Pranshu Shukla",
   },
   authors: {
-    name: "Aman Arya",
+    name: "Pranshu Shukla",
   },
   description: longDescription,
   openGraph: {
-    title: "Aman Arya | Portfolio",
+    title: "Pranshu Shukla | Portfolio",
     description: longDescription,
     url: "https://www.amanarya.com/",
-    siteName: "Aman Arya | Portfolio",
+    siteName: "Pranshu Shukla | Portfolio",
     images: "https://www.amanarya.com/icon.png",
     type: "website",
   },
   twitter: {
-    title: "Aman Arya | Portfolio",
+    title: "Pranshu Shukla | Portfolio",
     description: longDescription,
     images: "https://www.amanarya.com/icon.png",
   },
-  keywords: ["Aman Arya", "Portfolio", "Aman Arya Portfolio", "Aman Arya | Portfolio", "Aman", "Aman's Portfolio", "Aman Portfolio", "aman", "aman portfolio", "aman's portfolio"],
+  keywords: ["Pranshu Shukla", "Portfolio", "Pranshu Shukla Portfolio", "Pranshu Shukla | Portfolio", "Aman", "Aman's Portfolio", "Aman Portfolio", "aman", "aman portfolio", "aman's portfolio"],
   manifest: "https://www.amanarya.com/manifest.json",
   icons: [
     {
