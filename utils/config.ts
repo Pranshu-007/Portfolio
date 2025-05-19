@@ -19,9 +19,7 @@ export const introAnimatedText = [
 ];
 export const myName = "Pranshu Shukla";
 export const shortDescription = "MERN STACK DEVELOPER";
-
-export const longDescription = "Junior Engineer at Goldman Sachs with a passion for technology. Experienced in Java, Game Development, and now focused on Web Development with Next.js, TypeScript, and Framer Motion. Enthusiastic about learning and exploring new technologies. Check out my portfolio for more!";
-
+export const longDescription = "Full Stack Development Apprentice at AccioJob with a strong interest in technology. Experienced in App Development, now actively working on Web Development using Next.js, TypeScript, and Framer Motion. Always curious to learn and explore new tools and frameworks. Feel free to check out my portfolio!"
 export const socialMediaDetails = [
   {
     name: 'GitHub',
@@ -40,8 +38,8 @@ export const socialMediaDetails = [
 export const skills = [
   "C", "C++", "HTML/CSS", "Javascript", "Typescript", "MySQL",
   "MongoDB", "Redux", "Tailwind", "React", "NextJs", "Node", "Redux", "React Native", "RestAPI",
-  "ExpressJs", "SocketIO", "MUI", "Git", "Github", "VSCode", "IntellijIdea", "Docker",
-  // "Postman", "Framer" , "Vercel", {"Flutter",}
+  "ExpressJs", "SocketIO", "MUI", "Git", "Github", "VSCode", "Docker",
+  "Postman", "Framer" , "Vercel", "Flutter"
 ];
 
 // export const experiences = [
@@ -87,33 +85,31 @@ export const skills = [
 export const projectsData = [
   {
     title: '  StaySpot : Hotel Website',
-    desciption: 'Build a platform that remotely runs and compiles user submitted code for a programming problem securely and judges if the code is correct/wrong',
-    tech: ['Nodejs', 'React', 'Docker', 'Redis', 'MongoDB', 'Expressjs', 'JWT'],
-    github: 'https://github.com/Am4nn/Online-Judge-Project',
-    external: 'https://oj.amanarya.com',
-    image: '/projects/oj-front.png'
+    desciption: 'Build a platform that helps user to book hotels according to the group size and location',
+    tech: ['NodeJS', 'ReactJS', 'MongoDB', 'Expressjs', 'JWT'],
+    github: 'https://github.com/Pranshu-007/tour-management-MERN',
+    image: '/projects/ecommerce.png'
   },
   {
     title: 'Portfolio',
     desciption: 'Crafted an engaging portfolio site with NextJS and Three.js, enhancing user interaction through a serverless feedback system powered by a custom API',
-    tech: ['Nodejs', 'NextJS', 'Threejs', 'Nodemailer', 'MUI', 'Bootstrap', 'drei'],
-    github: 'https://github.com/Am4nn/Portfolio-Website',
-    external: 'https://www.amanarya.com',
+    tech: ['NodeJS', 'NextJS', 'Threejs', 'Nodemailer', 'MUI', 'Bootstrap'],
+    github: 'https://github.com/Pranshu-007/Portfolio',
     image: '/projects/Portfolio.png'
   },
   {
-    title: 'Chess vs Stockfish',
-    desciption: 'Designed a Java Swing app for user-friendly equation input and dynamic graph visualization, showcasing strong Java and GUI development skills',
-    tech: ['Java', 'Java-Swing', 'Java-Collections'],
-    github: 'https://github.com/Am4nn/Draw-Graphs',
-    image: '/projects/draw-graph-front.png'
+    title: 'E-commerce website',
+    desciption: 'Designed a E-commerce website with user-friendly UI and showcasing strong Backend , SQL and UI development skills',
+    tech: ['NextJS', 'NodeJS', 'MySQL'],
+    github: 'https://github.com/Pranshu-007/E-Commerce-with-MySQL',
+    image: '/projects/ecommerce.png'
   },
   {
     title: 'FitPro : Gym App',
     desciption: "Designed and developed 'Super Mario', a captivating 2D game using C++ and the SFML, showcasing shader programming skills for visually stunning effects",
-    tech: ['React Native', 'SFML', 'Shader', 'Vector', 'CMake'],
-    github: 'https://github.com/Am4nn/Super-Mario-SFML',
-    image: '/projects/super-mario-front.png'
+    tech: ['React Native', 'Mobile Screen'],
+    github: '',
+    image: '/projects/splash.png'
   }
 ];
 
