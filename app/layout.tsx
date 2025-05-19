@@ -33,7 +33,8 @@ export const metadata: Metadata = {
     description: longDescription,
     url: "https://www.amanarya.com/",
     siteName: "Pranshu Shukla | Portfolio",
-    images: "https://www.amanarya.com/icon.png",
+    // images: "https://www.amanarya.com/logo.png",
+    images: "https://www.amanarya.com/logo.png",
     type: "website",
   },
   twitter: {
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     description: longDescription,
     images: "https://www.amanarya.com/icon.png",
   },
-  keywords: ["Pranshu Shukla", "Portfolio", "Pranshu Shukla Portfolio", "Pranshu Shukla | Portfolio", "Aman", "Aman's Portfolio", "Aman Portfolio", "aman", "aman portfolio", "aman's portfolio"],
+  keywords: ["Pranshu Shukla", "Portfolio", "Pranshu Shukla Portfolio", "Pranshu Shukla | Portfolio", "Pranshu", "Pranshu's Portfolio", "Pranshu Portfolio", "Pranshu", "Pranshu portfolio", "Pranshu's portfolio"],
   manifest: "https://www.amanarya.com/manifest.json",
   icons: [
     {
