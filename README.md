@@ -2,7 +2,8 @@
 
 Welcome to my portfolio website built with Nextjs:14, Typescript, Tailwind, Framer-Motion, Three.js, and hosted on Vercel with a custom domain [https://portfolio-git-main-pranshu-shuklas-projects.vercel.app/]([https://www.amanarya.com](https://portfolio-git-main-pranshu-shuklas-projects.vercel.app/))
 
-![Portfolio Screenshot Wide](public/preview-wide-dark.png)
+![Screenshot (26)](https://github.com/user-attachments/assets/52841962-3518-4403-a629-a6c9836a09c6)
+
 
 ## Overview
 
