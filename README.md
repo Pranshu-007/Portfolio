@@ -20,13 +20,13 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Am4nn/Portfolio-Next-Website.git
+   git clone https://github.com/Pranshu-007/Portfolio.git
    ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd Portfolio-Next-Website
+    cd Portfolio
     ```
 
 3. Install the dependencies:
