@@ -1,6 +1,6 @@
-# Portfolio Website - Aman Arya
+# Portfolio Website - Pranshu Shukla
 
-Welcome to my portfolio website built with Nextjs:14, Typescript, Tailwind, Framer-Motion, Three.js, and hosted on Vercel with a custom domain [amanarya.com](https://www.amanarya.com)
+Welcome to my portfolio website built with Nextjs:14, Typescript, Tailwind, Framer-Motion, Three.js, and hosted on Vercel with a custom domain [https://portfolio-git-main-pranshu-shuklas-projects.vercel.app/]([https://www.amanarya.com](https://portfolio-git-main-pranshu-shuklas-projects.vercel.app/))
 
 ![Portfolio Screenshot Wide](public/preview-wide-dark.png)
 
@@ -10,7 +10,7 @@ This project showcases my portfolio and allows visitors to view my work and send
 
 ## Live Demo
 
-You can see the live demo of this project at [https://www.amanarya.com](https://www.amanarya.com)
+You can see the live demo of this project at [Portfolio]([https://www.amanarya.com](https://portfolio-git-main-pranshu-shuklas-projects.vercel.app/))
 
 ## Installation
 
@@ -56,11 +56,11 @@ To run this project locally, follow these steps:
 
 - Serverless API: The website uses a serverless function hosted on Vercel to handle form submissions and send emails using Nodemailer
 
-- Custom Domain: The portfolio is hosted on a custom domain [www.amanarya.com](https://www.amanarya.com)
+- Custom Domain: The portfolio is hosted on a custom domain [Portfolio on vercel]([https://www.amanarya.com](https://portfolio-git-main-pranshu-shuklas-projects.vercel.app/))
 
 ## Contact
 
-If you have any questions, feedback, or would like to get in touch with me, you can use the contact form on my portfolio or email me at <125aryaaman@gmail.com>
+If you have any questions, feedback, or would like to get in touch with me, you can use the contact form on my portfolio or email me at <pranshushukla25@gmail.com>
 
 ## License
 
